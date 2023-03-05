@@ -1,5 +1,13 @@
+@import url("http://fonts.cdnfonts.com/css/optien");
+
 .App {
   text-align: center;
+  justify-content: center;
+  height: 1200px;
+  background-image: url("https://www.npg.org.uk/assets/images/learning/playful-portraits/Dorothy-Hodgkin/568_6-8-years-a.jpg");
+  background-repeat: repeat-x repeat-y;
+  /* background-repeat: ; */
+  background-size: 200px;
 }
 
 .App-logo {
@@ -35,4 +43,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.empty {
+  margin-top: 15px;
+  font-family: "Optien", sans-serif;
+
+  font-size: 20px;
+}
+
+.title {
+  font-family: "Optien", sans-serif;
+
+  font-size: 50px;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }

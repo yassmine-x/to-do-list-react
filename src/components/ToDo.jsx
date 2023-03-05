@@ -1,5 +1,6 @@
 import { useState } from "react";
 import List from "./List";
+import Title from "./Title";
 
 export default function ToDo() {
   const [todo, setTodo] = useState("");
@@ -14,6 +15,7 @@ export default function ToDo() {
 
   return (
     <p>
+      <Title />
       <input
         type="text"
         value={todo}
